@@ -3,10 +3,11 @@
 <Document name="Pivot Variables-Commission Calculator.dashboard.DFI">
 <dashboard xmlns="http://www.intersystems.com/deepsee/library" name="Commission Calculator" folderName="Pivot Variables" title="" description="" keywords="" owner="" shared="true" public="true" locked="false" resource="" timeCreated="2013-12-16T22:13:45.375Z" createdBy="" category="How To" bookCover="{background: {style:&apos;background:white;&apos;},header: {text:&apos;$type&apos;},title: {text:&apos;$title&apos;,style:&apos;color:rgb(0, 75, 152);&apos;},image: {src:&apos;covers/10302135_s.jpg&apos;,imageStyle:&apos;width:64px;height:64px;&apos;},subtitle: {text:&apos;pivot variables&apos;,style:&apos;color:rgb(0, 75, 152);&apos;},footer: {text:&apos;$owner&apos;}}" scheme="" worklistCount="0" snapTo="true" snapGrid="true" gridRows="10" gridCols="10" canResize="true" canModify="true" showTitleBar="true" titleBarOpacity="" titleBarColor="" selectedTitleBarOpacity="" selectedTitleBarColor="" titleBarTextColor="" selectedTitleBarTextColor="" titleBarFont="" companyName="" companyLogo="" companyStyle="" backgroundColor="white" backgroundImage="none" backgroundRepeat="no-repeat" backgroundSize="100% 100%" backgroundOpacity="1" widgetBorders="1px solid #F0F0F0" widgetBordersSwitch="edit" widgetBordersColor="#F0F0F0" widgetBordersStyle="solid" widgetBordersWidth="1" widgetBordersToggle="true">
   <widget name="Widget1" type="pivot" subtype="pivot" subtypeClass="lineChart" title="" dataSource="Pivot Variables/Commission Calculator.pivot" dataLink="" drillDownDataSource="" width="200" height="200" sidebarContent="" showSidebar="false" sidebarWidth="" maximized="false" homeRowL="0" homeColL="0" colSpanL="8" rowSpanL="7" showToolbar="true" showToolbarBottomBorder="true" showToolbarOnlyWhenMaximized="false" colorToolbar="#F0F0F0" opacityToolbar="1" backgroundColor="#F0F0F0" opacity="1" theme="" dataColorList="">
-    <control name="" action="applyVariable" target="" targetProperty="$variable.CommissionPercentage" location="widget" type="auto" controlClass="" label="Commission Percentage" title="" value="" text="" readOnly="false" valueList="" displayList="" activeWhen="">
+    <control name="" action="applyVariable" target="" targetProperty="$variable.CommissionPercentage" location="dashboard" type="auto" controlClass="" label="Input a desirable value and press Enter " title="" value="0" text="0" readOnly="false" valueList="" displayList="" activeWhen="">
       <valueRequired>false</valueRequired>
     </control>
-    <property name="analyzer">1</property>
+    <property name="analyzer">0</property>
+    <property name="chartToggle">table</property>
   </widget>
 </dashboard>
 </Document></Export>
