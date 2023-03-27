@@ -13,6 +13,7 @@
  zpm "install isc-dev"
  zpm "install dsw"
  zpm "install webterminal"
+ zpm "install passwordless"
  do ##class(dev.code).workdir("/home/irisowner/irisdev/src")
  do EnableDeepSee^%SYS.cspServer("/csp/user/")
 
