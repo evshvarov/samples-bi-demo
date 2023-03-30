@@ -15,6 +15,9 @@
     <control name="" action="applyFilter" target="" targetProperty="Yaxis" location="widget" type="auto" controlClass="" label="Y axis" title="" value="" text="" readOnly="false" valueList="" displayList="" activeWhen="">
       <valueRequired>false</valueRequired>
     </control>
+    <control name="" action="navigate" target="" targetProperty="https://pie-chart-bug.demo.community.intersystems.com/csp/user/BI.Model.KPIs.DemoInteroperability.cls" location="widget" type="auto" controlClass="" label="Open KPI" title="" value="" text="" readOnly="false" valueList="" displayList="" activeWhen="">
+      <valueRequired>false</valueRequired>
+    </control>
     <property name="analyzer">0</property>
   </widget>
 </dashboard>
