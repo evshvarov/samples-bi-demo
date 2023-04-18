@@ -1,7 +1,7 @@
 # Samples-BI
 This is the README file for SAMPLES-BI. 
 The end of the file has setup instructions.
-update to DSW 3.1.55
+update to DSW 3.1.81
 
 * [Overview](#overview)
   * [Contents of the BI package](#contents-of-the-bi-package)
