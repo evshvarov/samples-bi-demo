@@ -3,9 +3,15 @@
   <Document name="samples-bi-demo.ZPM">
     <Module>
       <Name>samples-bi-demo</Name>
-      <Version>1.1.0</Version>
+      <Version>1.2.0</Version>
       <Description>Provides sample data for use with InterSystems IRIS Business Intelligence, as well as fully developed sample BI models and dashboards.</Description>
       <Packaging>module</Packaging>
+      <Dependencies>
+        <ModuleReference>
+          <Name>isd-dev</Name>
+          <Version>1.4.*</Version>
+        </ModuleReference>
+      </Dependencies>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="BI.PKG"/>
       <Resource Name="HoleFoods.PKG"/>
@@ -13,6 +19,7 @@
       <Resource Name="DeepSee.TermList.GBL"/>
       <Resource Name="DeepSee.Variables.GBL"/>
       <Resource Name="*.DFI" />
+      <UnitTest Name="/tests" Package="samplesbi.unittests" Phase="test"/>
       <Invokes>
         <Invoke Class="HoleFoods.Utils" Method="StopJournalling">
           <Arg>${namespace}</Arg>
