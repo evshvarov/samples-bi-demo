@@ -16,12 +16,12 @@ Setup options
 * Docker setup:
   * `Dockerfile` has the build recipe for building an entire Docker image out of this sample repository
   * `iris.script` has ObjectScript code to set up the sample namespace and then invokes ZPM for setting up the actual sample as described above.
-  * `Installer.cls` is an [installation manifest](https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GCI_MANIFEST) called by `iris.script` to set up the sample namespace 
+  * `Installer.cls` is an [installation manifest](https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GCI_MANIFEST) called by `iris.script` to set up the sample namespace
   * `.dockerignore` is a standard Docker configuration file to leave some repository contents out of the Docker build scope
   * `docker-compose.xml` adds convenience by scripting how to launch a container based on that image.
 
 Miscellaneous
-* `.vscode` is a configuration file for [Visual Studio Code](https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=PAGE_vscode), the recommended editor for ObjectScript code on InterSystems IRIS 
+* `.vscode` is a configuration file for [Visual Studio Code](https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=PAGE_vscode), the recommended editor for ObjectScript code on InterSystems IRIS
 * `.gitattributes` and `.gitignore` are configuration files for Git source control and otherwise don't impact the sample
 * `.github/workflows/` has a few scripts for automated CI/CD workflows, leveraging [GitHub Actions](https://github.com/features/actions)
 
@@ -49,7 +49,7 @@ d $System.SQL.Shell()
 
 ## export IRIS Analytics artifacts
 ```
-d ##class(dev.code).export("*.DFI")
+d ##class(dev.code).export("Feat*.DFI")
 d ##class(dev.code).export("BUG*.DFI")
 ```
 ## build cube

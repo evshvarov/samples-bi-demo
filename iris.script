@@ -17,9 +17,16 @@
  do ##class(dev.code).workdir("/home/irisowner/irisdev/src")
  do EnableDeepSee^%SYS.cspServer("/csp/user/")
 
-    zpm "install git-source-control"
-    do ##class(%Studio.SourceControl.Interface).SourceControlClassSet("SourceControl.Git.Extension")
+
+ zn "%SYS"
+ zpm "install passwordless"
+
+ zn "USER"
 
  zpm "load /home/irisowner/irisdev/ -v -dev -Dfolder=user"
+
+ zpm "install git-source-control"
+ do ##class(%Studio.SourceControl.Interface).SourceControlClassSet("SourceControl.Git.Extension")
+
 
  halt

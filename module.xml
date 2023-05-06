@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="samples-bi.ZPM">
+  <Document name="samples-bi-demo.ZPM">
     <Module>
-      <Name>samples-bi</Name>
-      <Version>1.0.4</Version>
+      <Name>samples-bi-demo</Name>
+      <Version>1.1.0</Version>
       <Description>Provides sample data for use with InterSystems IRIS Business Intelligence, as well as fully developed sample BI models and dashboards.</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
@@ -20,9 +20,9 @@
         <Invoke Class="HoleFoods.Utils" Method="Setup"></Invoke>
         <Invoke Class="BI.Populate" Method="Setup"></Invoke>
       </Invokes>
-    <Parameter Name="folder" Value="irisapp" />
+    <Parameter Name="folder" Value="user" />
     <FileCopy Name="dsw/irisapp.json" Target="${cspdir}dsw/configs/${folder}.json"/>
     </Module>
-    
+
   </Document>
 </Export>
