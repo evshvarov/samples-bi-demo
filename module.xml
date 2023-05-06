@@ -8,7 +8,7 @@
       <Packaging>module</Packaging>
       <Dependencies>
         <ModuleReference>
-          <Name>isс-dev</Name>
+          <Name>isc-dev</Name>
           <Version>1.4.*</Version>
         </ModuleReference>
       </Dependencies>
