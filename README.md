@@ -130,7 +130,7 @@ $ docker pull intersystemsdc/iris-community:latest
 
 2. Run IRIS container with ZPM:
 ```
-$ docker run --name irisce -d --publish 52773:52773 intersystemsdc/iris-community:latest
+$ docker run --name irisce -d --publish 52773:52773 intersystemsdc/iris-community:latest --check-caps false --ISCAgent false
 ```
 3. RUN IRIS terminal
 ```
