@@ -124,13 +124,13 @@ ZPM stands for ObjectScript Package Manager. It provides a simple and unified wa
 
 1. Pull the IRIS Community Edition image with zpm:
 ```
-$ docker pull intersystemsdc/iris-community:2021.1.0.215.0-zpm
+$ docker pull intersystemsdc/iris-community:latest
 ```
    You can take the latest tag of IRIS or IRIS for Health Community Edition with ZPM [here](https://hub.docker.com/r/intersystemsdc/iris-community)
 
 2. Run IRIS container with ZPM:
 ```
-$ docker run --name irisce -d --publish 52773:52773 intersystemsdc/iris-community:2021.1.0.215.0-zpm
+$ docker run --name irisce -d --publish 52773:52773 intersystemsdc/iris-community:latest --check-caps false --ISCAgent false
 ```
 3. RUN IRIS terminal
 ```
