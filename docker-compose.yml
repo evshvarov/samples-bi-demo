@@ -4,6 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      target: builder
     command: --check-caps false
     restart: always
     ports:
