@@ -53,7 +53,7 @@ Method %OnGetSQL(ByRef pSQL As %String) As %Status
         } 
     }
 
-    set groupby="GROUP BY HomeCity "
+    set groupby=" GROUP BY HomeCity "
     set orderby="ORDER BY HomeCity "
     // assemble the SQL statement
     set pSQL=pSQL_where_groupby_orderby
