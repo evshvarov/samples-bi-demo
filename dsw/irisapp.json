@@ -1,1 +1,1 @@
-{"app":{"themeColors":{}},"ns":{"widgets":{"Bug/ClickFilter.dashboard":{"Widget2":{"showValues":true},"Widget1":{"btn.ShowPercents":false,"btn.ShowAnnotations":true}}}}}
+{"app":{"themeColors":{},"isSaveFilters":true,"isRelatedFilters":true,"colCount":12},"ns":{"widgets":{"Bug/ClickFilter.dashboard":{"Widget2":{"showValues":true},"Widget1":{"btn.ShowPercents":false,"btn.ShowAnnotations":true}},"Widget Examples/Combo Chart.dashboard":{"Widget1":{"col":0,"row":0,"sizeX":9,"sizeY":2},"emptyWidget":{"col":9,"row":0,"sizeX":2,"sizeY":2}}}}}
