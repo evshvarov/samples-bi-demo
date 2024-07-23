@@ -4,6 +4,11 @@
 <Node><Sub>^DeepSee.TermList</Sub>
 <Node><Sub>PATIENTS PIVOTS</Sub>
 <Node><Sub>data</Sub>
+<Node><Sub>HolefoodsKPI</Sub>
+<Node><Sub>VALUE</Sub>
+<Data>HoleFoods/KPISQL.kpi</Data>
+</Node>
+</Node>
 <Node><Sub>Patients by Age &amp; Gender</Sub>
 <Node><Sub>VALUE</Sub>
 <Data>Use in Dashboards/Patient Allergy Counts by Age &amp; Gender.pivot</Data>
