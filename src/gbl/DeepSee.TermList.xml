@@ -3,7 +3,6 @@
 <Global>
 <Node><Sub>^DeepSee.TermList</Sub>
 <Node><Sub>PATIENTS PIVOTS</Sub>
-<Node><Sub>data</Sub>
 <Node><Sub>KPI</Sub>
 <Node><Sub>VALUE</Sub>
 <Data>HoleFoods/KPISQL.kpi</Data>
