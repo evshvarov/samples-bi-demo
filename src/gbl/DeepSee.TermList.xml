@@ -3,11 +3,7 @@
 <Global>
 <Node><Sub>^DeepSee.TermList</Sub>
 <Node><Sub>PATIENTS PIVOTS</Sub>
-<Node><Sub>KPI</Sub>
-<Node><Sub>VALUE</Sub>
-<Data>HoleFoods/KPISQL.kpi</Data>
-</Node>
-</Node>
+<Node><Sub>data</Sub>
 <Node><Sub>Patients by Age &amp; Gender</Sub>
 <Node><Sub>VALUE</Sub>
 <Data>Use in Dashboards/Patient Allergy Counts by Age &amp; Gender.pivot</Data>
@@ -80,7 +76,7 @@
 </Node>
 </Node>
 <Node><Sub>modDate</Sub>
-<Data>2024-08-07 06:44:07</Data>
+<Data>2024-08-07 06:50:13</Data>
 </Node>
 </Node>
 <Node><Sub>REGION COLORS</Sub>
@@ -107,7 +103,7 @@
 </Node>
 </Node>
 <Node><Sub>modDate</Sub>
-<Data>2024-08-07 06:43:58</Data>
+<Data>2024-08-07 06:50:13</Data>
 </Node>
 <Node><Sub>name</Sub>
 <Data>Region Colors</Data>
