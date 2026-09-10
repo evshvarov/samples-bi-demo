@@ -2,6 +2,51 @@
 <Export generator="Cache">
 <Global>
 <Node><Sub>^DeepSee.TermList</Sub>
+<Node><Sub>COLUMNSPEC</Sub>
+<Node><Sub>data</Sub>
+<Node><Sub>DateOfSale</Sub>
+<Node><Sub>VALUE</Sub>
+<Data>DateOfSale.Actual.YearSold.MEMBERS</Data>
+</Node>
+</Node>
+<Node><Sub>Outlet</Sub>
+<Node><Sub>VALUE</Sub>
+<Data>Outlet.H1.Region.MEMBERS</Data>
+</Node>
+</Node>
+<Node><Sub>ProductsName</Sub>
+<Node><Sub>VALUE</Sub>
+<Data>Product.P1.&quot;Product Name&quot;.MEMBERS</Data>
+</Node>
+</Node>
+</Node>
+<Node><Sub>modDate</Sub>
+<Data>2026-08-22 15:26:46</Data>
+</Node>
+<Node><Sub>name</Sub>
+<Data>COLUMNSPEC</Data>
+</Node>
+</Node>
+<Node><Sub>KPI</Sub>
+<Node><Sub>data</Sub>
+<Node><Sub>DemoMDX</Sub>
+<Node><Sub>VALUE</Sub>
+<Data>DemoMDX.kpi</Data>
+</Node>
+</Node>
+<Node><Sub>KPISQL</Sub>
+<Node><Sub>VALUE</Sub>
+<Data>HoleFoods/KPISQL.kpi</Data>
+</Node>
+</Node>
+</Node>
+<Node><Sub>modDate</Sub>
+<Data>2026-08-22 11:24:24</Data>
+</Node>
+<Node><Sub>name</Sub>
+<Data>KPI</Data>
+</Node>
+</Node>
 <Node><Sub>PATIENTS PIVOTS</Sub>
 <Node><Sub>data</Sub>
 <Node><Sub>Patients by Age &amp; Gender</Sub>
@@ -26,7 +71,7 @@
 </Node>
 </Node>
 <Node><Sub>modDate</Sub>
-<Data>2024-08-07 06:50:13</Data>
+<Data>2026-08-19 09:09:53</Data>
 </Node>
 <Node><Sub>name</Sub>
 <Data>Patients Pivots</Data>
@@ -76,7 +121,27 @@
 </Node>
 </Node>
 <Node><Sub>modDate</Sub>
-<Data>2024-08-07 06:50:13</Data>
+<Data>2026-08-19 09:09:53</Data>
+</Node>
+</Node>
+<Node><Sub>PRODUCTS/CATEGORY</Sub>
+<Node><Sub>data</Sub>
+<Node><Sub>Category</Sub>
+<Node><Sub>VALUE</Sub>
+<Data>Pareto Charts/Category Pareto Data.pivot</Data>
+</Node>
+</Node>
+<Node><Sub>Products</Sub>
+<Node><Sub>VALUE</Sub>
+<Data>Pareto Charts/Product Pareto Data.pivot</Data>
+</Node>
+</Node>
+</Node>
+<Node><Sub>modDate</Sub>
+<Data>2026-08-22 11:06:59</Data>
+</Node>
+<Node><Sub>name</Sub>
+<Data>Products/category</Data>
 </Node>
 </Node>
 <Node><Sub>REGION COLORS</Sub>
@@ -103,7 +168,7 @@
 </Node>
 </Node>
 <Node><Sub>modDate</Sub>
-<Data>2024-08-07 06:50:13</Data>
+<Data>2026-08-19 09:09:40</Data>
 </Node>
 <Node><Sub>name</Sub>
 <Data>Region Colors</Data>
